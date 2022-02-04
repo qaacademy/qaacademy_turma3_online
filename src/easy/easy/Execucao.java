@@ -24,20 +24,32 @@ public class Execucao {
         // System.out.println("O dobro de "+ numeroDigitado +" = " +exercicio04_easy.calcularDobro(numeroDigitado));
 
 
-        String primeiroDigitadoStg = JOptionPane.showInputDialog("Digite o primeiro número");
-        String segundoDigitadoStg = JOptionPane.showInputDialog("Digite o segundo número");
-        String terceiroDigitadoStg = JOptionPane.showInputDialog("Digite o terceiro número");
+        // String primeiroDigitadoStg = JOptionPane.showInputDialog("Digite o primeiro número");
+        // String segundoDigitadoStg = JOptionPane.showInputDialog("Digite o segundo número");
+        // String terceiroDigitadoStg = JOptionPane.showInputDialog("Digite o terceiro número");
 
-        int primeiroNumero = Integer.parseInt(primeiroDigitadoStg);
-        int segundoNumero = Integer.parseInt(segundoDigitadoStg);
-        int terceiroNumero = Integer.parseInt(terceiroDigitadoStg);
+        // int primeiroNumero = Integer.parseInt(primeiroDigitadoStg);
+        // int segundoNumero = Integer.parseInt(segundoDigitadoStg);
+        // int terceiroNumero = Integer.parseInt(terceiroDigitadoStg);
 
-        Exercicio05_easy exercicio05_easy = new Exercicio05_easy();
-        System.out.println("A Soma dos numeros digitados será: "+exercicio05_easy.soma(primeiroNumero, segundoNumero, terceiroNumero));
-        System.out.println("A Subtração dos numeros digitados será: "+exercicio05_easy.subtracao(primeiroNumero, segundoNumero, terceiroNumero));
-        System.out.println("A Multiplicação dos numeros digitados será: "+exercicio05_easy.multiplicacao(primeiroNumero, segundoNumero, terceiroNumero));
-        int soma = exercicio05_easy.soma(primeiroNumero, segundoNumero, terceiroNumero);
-        System.out.println("A Média dos numeros digitados será: "+exercicio05_easy.media(soma));
+        // Exercicio05_easy exercicio05_easy = new Exercicio05_easy();
+        // System.out.println("A Soma dos numeros digitados será: "+exercicio05_easy.soma(primeiroNumero, segundoNumero, terceiroNumero));
+        // System.out.println("A Subtração dos numeros digitados será: "+exercicio05_easy.subtracao(primeiroNumero, segundoNumero, terceiroNumero));
+        // System.out.println("A Multiplicação dos numeros digitados será: "+exercicio05_easy.multiplicacao(primeiroNumero, segundoNumero, terceiroNumero));
+        // int soma = exercicio05_easy.soma(primeiroNumero, segundoNumero, terceiroNumero);
+        // System.out.println("A Média dos numeros digitados será: "+exercicio05_easy.media(soma));
+
+
+
+        String nota1Stg, nota2Stg;
+        nota1Stg = JOptionPane.showInputDialog("Por favor, digite a primeira nota: ");
+        nota2Stg = JOptionPane.showInputDialog("Por favor, digite a segunda nota: ");
+
+        double nota1 = Double.parseDouble(nota1Stg);
+        double nota2 = Double.parseDouble(nota2Stg);
+
+        Exercicio06_easy exercicio06_easy = new Exercicio06_easy();
+        System.out.println(exercicio06_easy.verificaAprovacao(nota1, nota2));
 
     
     
