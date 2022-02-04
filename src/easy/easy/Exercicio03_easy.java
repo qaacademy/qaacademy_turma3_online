@@ -1,24 +1,15 @@
 package easy;
+
 import javax.swing.JOptionPane;
 
-public class Exercicio03_easy{//Inicio Algoritmo
-
+public class Exercicio03_easy {// Inicio Algoritmo
 
     static String primeiroValor;
     static String segundoValor;
 
-    public static void main(String[] args) {
-        primeiroValor  = JOptionPane.showInputDialog("Digite o primeiro valor"); 
-        segundoValor = JOptionPane.showInputDialog("Digite o segundo valor");  
-
-System.out.println("Primeiro valor digitado: "+ segundoValor);
-System.out.println("Segundo valor digitado: " + primeiroValor);
-       
+    public String retornaValorTrocado(String primeiroValor, String segundoValor) {
+        return "Primeiro valor digitado: " + segundoValor + "\n" + 
+        "Segundo valor digitado: " + primeiroValor;
     }
-   
-   
-    
-   
-       
 
-}//Fim Algoritmo 
+}// Fim Algoritmo
