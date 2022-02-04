@@ -1,14 +1,11 @@
 package easy;
+
 import javax.swing.JOptionPane;
 
 public class Exercicio07_easy { // inicio classe
 
-    public static void main(String[] args) {
-
-        double salario, inss = 0.0; // declaração das variaveis
-        String salarioStg = "6101.07"; // Leitura da digitação
-        salario = Double.parseDouble(salarioStg);// Conversão e atribuição na variavel salario
-
+    public double calculaInss(double salario) {
+        double inss = 0.0; // declaração das variaveis
         if (salario <= 1045.00) {// abertura
             inss = salario * 0.075; // 7,5%
         } // fechamento do if
@@ -23,9 +20,9 @@ public class Exercicio07_easy { // inicio classe
             inss = salario * 0.14; // 14%
         }
         if (salario > 6101.06) {
-            inss = 854.15; //Teto
+            inss = 854.15; // Teto
         }
+        return inss;
 
-        System.out.println("O Valor do inss a ser pago é R$ " + inss);
     }
 }// fim da classe
