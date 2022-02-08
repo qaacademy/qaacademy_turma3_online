@@ -68,13 +68,18 @@ public class Execucao {
         // System.out.println("O valor do inss para um salario de : "+ salario +"Será de
         // : "+ exercicio07_easy.calculaInss(salario));
 
-        String salarioStg = JOptionPane.showInputDialog("Por favor, digite um valor de salario: ");
-        double salario = Double.parseDouble(salarioStg);
+        // String salarioStg = JOptionPane.showInputDialog("Por favor, digite um valor de salario: ");
+        // double salario = Double.parseDouble(salarioStg);
 
-        Exercicio08_easy exercicio08_easy = new Exercicio08_easy();
-        System.out.println("O Imposto de renda será: " + exercicio08_easy.calculaImpostoDeRenda(salario));
-        double impostoDeRenda = exercicio08_easy.calculaImpostoDeRenda(salario);
-        System.out.println("O Salario líquido será: " + exercicio08_easy.calculaSalarioLiquido(salario, impostoDeRenda));
+        // Exercicio08_easy exercicio08_easy = new Exercicio08_easy();
+        // System.out.println("O Imposto de renda será: " + exercicio08_easy.calculaImpostoDeRenda(salario));
+        // double impostoDeRenda = exercicio08_easy.calculaImpostoDeRenda(salario);
+        // System.out.println("O Salario líquido será: " + exercicio08_easy.calculaSalarioLiquido(salario, impostoDeRenda));
+
+         String numeroDigitadoStg =  JOptionPane.showInputDialog("Por favor, digite um numero inteiro para calcula a tabuada: ");
+        int numeroDigitado = Integer.parseInt(numeroDigitadoStg);
+        Exercicio09_easy exercicio09_easy = new Exercicio09_easy();
+        exercicio09_easy.calculaTabuada(numeroDigitado);
     }
 
 }
