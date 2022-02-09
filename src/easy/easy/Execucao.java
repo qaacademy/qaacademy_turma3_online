@@ -80,15 +80,25 @@ public class Execucao {
         // int numeroDigitado = Integer.parseInt(numeroDigitadoStg);
         // Exercicio09_easy exercicio09_easy = new Exercicio09_easy();
         // exercicio09_easy.calculaTabuada(numeroDigitado);
-        double valorTotal,valorInvestimento, valorJuros ; 
-        valorInvestimento =  Double.parseDouble(JOptionPane.showInputDialog("Por favor, digite um valor de investimento"));
-        Exercicio10_2_easy exercicio10_2_easy = new Exercicio10_2_easy();
-        valorJuros = exercicio10_2_easy.calcularValorJuros(valorInvestimento);
-        valorTotal =  valorJuros + valorInvestimento;
 
-        System.out.println("Valor Investido: R$ " + valorInvestimento);
-        System.out.println("Valor Juros: R$ " +  valorJuros);
-        System.out.println("Valor Total com Juros: R$ " + valorTotal);
+
+        // double valorTotal,valorInvestimento, valorJuros ; 
+        // valorInvestimento =  Double.parseDouble(JOptionPane.showInputDialog("Por favor, digite um valor de investimento"));
+        // Exercicio10_2_easy exercicio10_2_easy = new Exercicio10_2_easy();
+        // valorJuros = exercicio10_2_easy.calcularValorJuros(valorInvestimento);
+        // valorTotal =  valorJuros + valorInvestimento;
+
+        // System.out.println("Valor Investido: R$ " + valorInvestimento);
+        // System.out.println("Valor Juros: R$ " +  valorJuros);
+        // System.out.println("Valor Total com Juros: R$ " + valorTotal);
+
+
+        String numeroDigitadoStg = JOptionPane.showInputDialog("Digite um número inteiro");
+        int numeroDigitado = Integer.parseInt(numeroDigitadoStg);
+
+        Exercicio11_easy exercicio11_easy = new Exercicio11_easy();
+        System.out.println(exercicio11_easy.somaDois(numeroDigitado)); 
+
     }
 
 }
