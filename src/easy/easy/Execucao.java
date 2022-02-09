@@ -76,10 +76,19 @@ public class Execucao {
         // double impostoDeRenda = exercicio08_easy.calculaImpostoDeRenda(salario);
         // System.out.println("O Salario líquido será: " + exercicio08_easy.calculaSalarioLiquido(salario, impostoDeRenda));
 
-         String numeroDigitadoStg =  JOptionPane.showInputDialog("Por favor, digite um numero inteiro para calcula a tabuada: ");
-        int numeroDigitado = Integer.parseInt(numeroDigitadoStg);
-        Exercicio09_easy exercicio09_easy = new Exercicio09_easy();
-        exercicio09_easy.calculaTabuada(numeroDigitado);
+        // String numeroDigitadoStg =  JOptionPane.showInputDialog("Por favor, digite um numero inteiro para calcula a tabuada: ");
+        // int numeroDigitado = Integer.parseInt(numeroDigitadoStg);
+        // Exercicio09_easy exercicio09_easy = new Exercicio09_easy();
+        // exercicio09_easy.calculaTabuada(numeroDigitado);
+        double valorTotal,valorInvestimento, valorJuros ; 
+        valorInvestimento =  Double.parseDouble(JOptionPane.showInputDialog("Por favor, digite um valor de investimento"));
+        Exercicio10_2_easy exercicio10_2_easy = new Exercicio10_2_easy();
+        valorJuros = exercicio10_2_easy.calcularValorJuros(valorInvestimento);
+        valorTotal =  valorJuros + valorInvestimento;
+
+        System.out.println("Valor Investido: R$ " + valorInvestimento);
+        System.out.println("Valor Juros: R$ " +  valorJuros);
+        System.out.println("Valor Total com Juros: R$ " + valorTotal);
     }
 
 }
