@@ -1,4 +1,3 @@
-package medium;
 
 import javax.swing.JOptionPane;
 

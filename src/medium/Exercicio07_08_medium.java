@@ -1,4 +1,3 @@
-package medium;
 
 public class Exercicio07_08_medium {
 

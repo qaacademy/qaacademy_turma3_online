@@ -1,7 +1,5 @@
-package medium;
-
 public class Exercicio1_medium {
-    public static void main(String[] args) {
+    public void exibeParOuImpar() {
         int i = 0;
 
         while (i <= 100) {
