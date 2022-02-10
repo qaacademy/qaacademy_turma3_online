@@ -7,20 +7,25 @@ public class Execucao {
         // exercicio1_medium.exibeParOuImpar();
 
         // Exercicio 02
-        String valorInvestimentoStg = JOptionPane.showInputDialog("Digite um valor de investimento: ");
-        double valorInvestimento = Double.parseDouble(valorInvestimentoStg);
+        // String valorInvestimentoStg = JOptionPane.showInputDialog("Digite um valor de investimento: ");
+        // double valorInvestimento = Double.parseDouble(valorInvestimentoStg);
 
-        Exercicio02_medium exercicio02_medium = new Exercicio02_medium();
+        // Exercicio02_medium exercicio02_medium = new Exercicio02_medium();
 
-        double valorJuros = exercicio02_medium.calculaInvestimentoJurosCompostos(valorInvestimento);
-        double valorTotal = exercicio02_medium.calculaValorTotalInvestimento(valorInvestimento, valorJuros);
+        // double valorJuros = exercicio02_medium.calculaInvestimentoJurosCompostos(valorInvestimento);
+        // double valorTotal = exercicio02_medium.calculaValorTotalInvestimento(valorInvestimento, valorJuros);
 
-        System.out.println("O valor do investimento são: "
-                + valorInvestimento);
+        // System.out.println("O valor do investimento são: "
+        //         + valorInvestimento);
 
-        System.out.println("O valor do Juros são: " + valorJuros);
+        // System.out.println("O valor do Juros são: " + valorJuros);
 
-        System.out.println("O valor total do investimento: " + valorTotal);
+        // System.out.println("O valor total do investimento: " + valorTotal);
+
+        //Exercicio03
+
+        Exercicio03_medium exercicio03_medium = new Exercicio03_medium();
+        exercicio03_medium.somaNumerosAcumulados();
 
     }
 

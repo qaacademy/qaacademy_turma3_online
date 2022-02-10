@@ -1,7 +1,7 @@
 
 public class Exercicio03_medium {
 
-    public static void main(String[] args) {
+    public void somaNumerosAcumulados() {
 
         int i = 0, soma = 0;
 
