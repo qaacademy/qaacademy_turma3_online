@@ -1,7 +1,7 @@
 
 public class Exercicio04_medium {
 
-    public static void main(String[] args) {
+    public void multiplicacaoNumerosAteMil() {
 
         int i = 1, resultadoMultiplicacao = 1;
 
@@ -11,6 +11,7 @@ public class Exercicio04_medium {
             + resultadoMultiplicacao);
             if (resultadoMultiplicacao >= 1000) {
                 resultadoMultiplicacao = 1;
+                System.out.println("Foi Zerado");
             }
             i++;
         } // fim while

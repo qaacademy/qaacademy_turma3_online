@@ -24,8 +24,13 @@ public class Execucao {
 
         //Exercicio03
 
-        Exercicio03_medium exercicio03_medium = new Exercicio03_medium();
-        exercicio03_medium.somaNumerosAcumulados();
+        // Exercicio03_medium exercicio03_medium = new Exercicio03_medium();
+        // exercicio03_medium.somaNumerosAcumulados();
+
+        //Exercicio04
+
+        Exercicio04_medium exercicio04_medium = new Exercicio04_medium();
+        exercicio04_medium.multiplicacaoNumerosAteMil();
 
     }
 
