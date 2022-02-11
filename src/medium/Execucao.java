@@ -38,9 +38,19 @@ public class Execucao {
 
         // Exercicio 05
 
-        Exercicio05_medium exercicio05_medium = new Exercicio05_medium();
-        int menorNumero = exercicio05_medium.verificaMenorNumero();
-        System.out.println("O número: " + menorNumero + " é o menor.");
+        // Exercicio05_medium exercicio05_medium = new Exercicio05_medium();
+        // int menorNumero = exercicio05_medium.verificaMenorNumero();
+        // System.out.println("O número: " + menorNumero + " é o menor.");
+
+        // Exercicio 06
+
+        String fatorialDigitadoString = JOptionPane.showInputDialog("Digite um número pra calcular o fatorial");
+        int fatorial = Integer.parseInt(fatorialDigitadoString);
+
+        Exercicio06_medium exercicio06_medium = new Exercicio06_medium();
+        fatorial = exercicio06_medium.calculaFatorial(fatorial);
+        System.out.println(fatorial);
+
     }
 
 }
