@@ -59,8 +59,16 @@ public class Execucao {
 
         //Exercicio 09 
 
-        Exercicio09_medium exercicio09_medium = new Exercicio09_medium();
-        exercicio09_medium.recebeImprimeNomeNumeroAlunos();
+        // Exercicio09_medium exercicio09_medium = new Exercicio09_medium();
+        // exercicio09_medium.recebeImprimeNomeNumeroAlunos();
+
+        //Exercicio10
+
+        Exercicio10_medium exercicio10_medium = new Exercicio10_medium(); 
+        String elementoFibonacciString = JOptionPane.showInputDialog("Digite o elemento Fibonacci que você deseja exibir");
+        int elementoFibonacci = Integer.parseInt(elementoFibonacciString);
+        long [] vetorFibonacci = exercicio10_medium.calculaTermoFibonacci(elementoFibonacci);
+        exercicio10_medium.imprimeVetor(vetorFibonacci);
 
 
     }
