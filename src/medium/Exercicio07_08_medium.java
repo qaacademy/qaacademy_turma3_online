@@ -1,9 +1,8 @@
 
 public class Exercicio07_08_medium {
 
-    public static void main(String[] args) {
+    public String[] criaVetorMeses() {
 
-        // Exercicio 07
         String[] vetorMeses;
         vetorMeses = new String[12];
 
@@ -20,6 +19,11 @@ public class Exercicio07_08_medium {
         vetorMeses[10] = "Novembro";
         vetorMeses[11] = "Dezembro";
 
+        return vetorMeses;
+
+    }
+
+    public void imprimeValoresVetor(String[] vetorMeses) {
         //Exercicio08
         int i = 0;
         while (i < 12) {

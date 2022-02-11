@@ -44,12 +44,19 @@ public class Execucao {
 
         // Exercicio 06
 
-        String fatorialDigitadoString = JOptionPane.showInputDialog("Digite um número pra calcular o fatorial");
-        int fatorial = Integer.parseInt(fatorialDigitadoString);
+        // String fatorialDigitadoString = JOptionPane.showInputDialog("Digite um número pra calcular o fatorial");
+        // int fatorial = Integer.parseInt(fatorialDigitadoString);
 
-        Exercicio06_medium exercicio06_medium = new Exercicio06_medium();
-        fatorial = exercicio06_medium.calculaFatorial(fatorial);
-        System.out.println(fatorial);
+        // Exercicio06_medium exercicio06_medium = new Exercicio06_medium();
+        // fatorial = exercicio06_medium.calculaFatorial(fatorial);
+        // System.out.println(fatorial);
+
+        // Exercicio07 e 08
+
+        Exercicio07_08_medium exercicio07_08_medium = new Exercicio07_08_medium();
+        String [] vetorMeses = exercicio07_08_medium.criaVetorMeses();
+        exercicio07_08_medium.imprimeValoresVetor(vetorMeses); 
+
 
     }
 
