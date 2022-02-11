@@ -53,9 +53,14 @@ public class Execucao {
 
         // Exercicio07 e 08
 
-        Exercicio07_08_medium exercicio07_08_medium = new Exercicio07_08_medium();
-        String [] vetorMeses = exercicio07_08_medium.criaVetorMeses();
-        exercicio07_08_medium.imprimeValoresVetor(vetorMeses); 
+        // Exercicio07_08_medium exercicio07_08_medium = new Exercicio07_08_medium();
+        // String [] vetorMeses = exercicio07_08_medium.criaVetorMeses();
+        // exercicio07_08_medium.imprimeValoresVetor(vetorMeses); 
+
+        //Exercicio 09 
+
+        Exercicio09_medium exercicio09_medium = new Exercicio09_medium();
+        exercicio09_medium.recebeImprimeNomeNumeroAlunos();
 
 
     }
